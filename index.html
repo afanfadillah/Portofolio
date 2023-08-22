@@ -9,6 +9,24 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <style>
+            .float {
+                position: fixed;
+                width: 60px;
+                height: 60px;
+                bottom: 40px;
+                right: 40px;
+                color: #fff;
+                border-radius: 50px;
+                text-align: center;
+                box-shadow: 2px 2px 3px #999;
+            }
+        
+            .my-float {
+                margin-top: 22px;
+            }
+        </style>
 </head>
 
 <body>
@@ -59,16 +77,17 @@
                     <h4><span class="text-secondary">Student &</span> Programming Addict</h4>
                     <p><span class="text-secondary">Belajar pemrograman web itu menyenangkan bukan?
                         </span><br /><strong>Bukan</strong></p>
-                        <button type="button" class="btn btn-primary">Hubungi saya</button>
+                    <button type="button" class="btn btn-primary">Hubungi saya</button>
                 </div>
                 <div class="col-md-4">
                     <div class="position-relative">
-                        <img src="assets/img/afan.png" alt="afan" class="position-absolute img-fluid" style="z-index: 1;">
-                    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                        <path fill="#FF0066"
-                            d="M40.9,-76.2C50.4,-65.3,53.9,-49.2,61.7,-35.6C69.6,-22.1,81.8,-11,85.5,2.2C89.3,15.4,84.5,30.7,74.5,40.4C64.4,50.1,48.9,54.1,35.6,57.9C22.3,61.7,11.2,65.4,0.4,64.7C-10.4,64,-20.7,58.9,-31.2,53.4C-41.6,47.9,-52.1,42.1,-60.3,33.1C-68.4,24.1,-74.1,12.1,-74.4,-0.2C-74.7,-12.4,-69.7,-24.9,-61.4,-33.5C-53,-42.1,-41.4,-46.9,-30.6,-57.1C-19.9,-67.3,-9.9,-82.9,2.9,-87.8C15.7,-92.8,31.3,-87.1,40.9,-76.2Z"
-                            transform="translate(100 100)" />
-                    </svg>
+                        <img src="assets/img/afan.png" alt="afan" class="position-absolute img-fluid"
+                            style="z-index: 1;">
+                        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="#0C6DFD"
+                                d="M40.9,-76.2C50.4,-65.3,53.9,-49.2,61.7,-35.6C69.6,-22.1,81.8,-11,85.5,2.2C89.3,15.4,84.5,30.7,74.5,40.4C64.4,50.1,48.9,54.1,35.6,57.9C22.3,61.7,11.2,65.4,0.4,64.7C-10.4,64,-20.7,58.9,-31.2,53.4C-41.6,47.9,-52.1,42.1,-60.3,33.1C-68.4,24.1,-74.1,12.1,-74.4,-0.2C-74.7,-12.4,-69.7,-24.9,-61.4,-33.5C-53,-42.1,-41.4,-46.9,-30.6,-57.1C-19.9,-67.3,-9.9,-82.9,2.9,-87.8C15.7,-92.8,31.3,-87.1,40.9,-76.2Z"
+                                transform="translate(100 100)" />
+                        </svg>
                     </div>
                 </div>
             </div>
@@ -79,11 +98,13 @@
                 <div class="col-md-6">
                     <h4 class="text-primary">Tentang Saya</h4>
                     <h1>Rekrut Saya Sebagai Konsultan IT Anda</h1>
-                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt fugiat molestias modi facilis? Obcaecati, inventore repellat!</p>
+                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt fugiat
+                        molestias modi facilis? Obcaecati, inventore repellat!</p>
                 </div>
                 <div class="col-md-6 pt-4">
                     <h2 class="pt-2">Mari Berteman</h2>
-                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga similique, rerum nesciunt porro earum maxime?</p>
+                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga similique,
+                        rerum nesciunt porro earum maxime?</p>
                     <div class="d-flex flex y-5">
                         <a href="#" class="m-2"><i class="fa-brands fa-facebook"></i></a>
                         <a href="#" class="m-2"><i class="fa-brands fa-instagram"></i></a>
@@ -100,8 +121,14 @@
         <section id="project" class="bg-dark" style="height: 500px;"></section>
         <section id="client" class="bg-info" style="height: 500px;"></section>
         <section id="contact" class="bg-warning" style="height: 500px;"></section>
-    </div>
 
+
+        <a href="#" class="float bg-primary">
+            <i class="fa fa-arrow-up my-float"></i>
+        </a>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
